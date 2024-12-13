@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to Cess</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('christmas.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.9);
+            border: 3px solid #008000; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #c0392b; 
+            text-shadow: 2px 2px 4px #008000;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #c0392b; 
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #008000;
+            font-weight: bold;
+        }
+        a:hover {
+            background-color: #008000; 
+            color: #fff;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+	.video-section {
+            margin-top: 30px;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Original Letter Container -->
+    <div class="container">
+        <h1>Letter to Cess</h1>
+        <p>Dear Cess,</p>
+        <p>Merry Christmas! This letter is a small token of my thoughts for you this holiday season. To read the full letter, please click the link below.</p>
+        <a href="full_letter.html">Continue the full letter text here</a>
+    </div>
+
+    <!-- New Cat Gallery Section -->
+    <div class="container">
+        <h1>MEOW</h1>
+        <div class="gallery">
+            <img src="cess.jpg" alt="Cat 1">
+            <img src="cess2.jpg" alt="Cat 2">
+            <img src="cess1.jpg" alt="Cat 3">
+            <img src="eton.jpg" alt="Cat 4">
+            <img src="meow.jpg" alt="Cat 5">
+            <img src="eton1.jpg" alt="Cat 6">
+        </div>
+	<div class="container video-section">
+        <h1>RANDOM BABY DANCERS</h1>
+        <video controls>
+            <source src="random baby dancers.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
